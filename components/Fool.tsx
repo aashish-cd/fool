@@ -22,7 +22,7 @@ const Fool = () => {
   };
   return (
     <div className={styles.container}>
-      <h1>are you fool ?</h1>
+      <h1>Are you a Fool?</h1>
       {fool ? <h1>I knew it.</h1> : <div style={{ height: '100px' }}></div>}
       <div className={styles.buttonContainer}>
         <button className={styles.buttonYes} onClick={handleYes}>
